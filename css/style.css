@@ -1,0 +1,36 @@
+/* Custom Font - Los Marmotas */
+@font-face {
+    font-family: 'LosMarmotas';
+    src: url('https://raw.githubusercontent.com/oviedoleonel/pagina-web-los-marmotas-growshop/main/fonts/LosMarmotas.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.font-losmarmotas {
+    font-family: 'LosMarmotas', sans-serif;
+}
+
+/* Background pattern for Hero section */
+.bg-stars {
+    background-image: url('https://www.transparenttextures.com/patterns/stardust.png');
+    background-color: #000000;
+}
+
+/* Custom styles for elements (optional, if not fully covered by Tailwind) */
+/* Example: Shadow for product cards on hover */
+.product-card-hover:hover {
+    box-shadow: 0 10px 15px -3px rgba(0, 255, 0, 0.2), 0 4px 6px -2px rgba(0, 255, 0, 0.1);
+}
+
+/* Ensure images fit within their containers */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Adjustments for smaller screens (example for a specific element) */
+@media (max-width: 768px) {
+    .hide-on-mobile {
+        display: none;
+    }
+}
